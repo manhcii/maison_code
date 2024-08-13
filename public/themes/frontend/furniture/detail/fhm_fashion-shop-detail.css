@@ -1,0 +1,54 @@
+.quantity .qty {
+  background-color: transparent;
+}
+
+.quantity .plus,
+.quantity .minus,
+.quantity .qty {
+  font-weight: 300;
+  background-color: transparent;
+}
+
+.button {
+  text-shadow: none;
+  background-color: transparent;
+  border: 1px solid #000;
+  font-weight: 300;
+  color: #000;
+}
+
+#product-color-dots .owl-dot {
+  display: inline-block;
+  background-color: transparent;
+  width: 20px;
+  height: 20px;
+  margin: 0 2px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0);
+  transform: scale(1);
+  -webkit-transition: box-shadow 0.2s ease, transform 0.2s ease;
+  -o-transition: box-shadow 0.2s ease, transform 0.2s ease;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+#product-color-dots .owl-dot.active {
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3);
+  transform: scale(1.2);
+}
+
+.product-color-value,
+.card-body a {
+  color: rgb(158, 132, 83) !important;
+}
+
+.btn-outline-secondary {
+  border: none;
+}
+
+.btn-outline-secondary:hover,
+.btn-check:checked + .btn-outline-secondary {
+  background-color: rgb(158, 132, 83) !important;
+  color: #fff;
+}

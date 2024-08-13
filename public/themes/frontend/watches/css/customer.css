@@ -1,0 +1,135 @@
+.fhm-customer section {
+    margin-bottom: 70px;
+}
+
+.fhm-customer section.global {
+    margin-bottom: 0px;
+}
+
+.customer-talk-title {
+    margin-bottom: 50px;
+}
+
+.customer-talk .customer-talk-title h3 {
+    font-size: 35px;
+    line-height: 48px;
+    font-weight: bold;
+    color: #EE5425;
+}
+
+.customer-talk .customer-talk-title p {
+    padding-top: 40px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.swiper-pagination {
+    position: relative;
+    bottom: unset;
+}
+
+.content-info {
+    border-radius: 20px;
+    border: 1px solid #EE5425;
+    padding: 25px;
+}
+
+.box-img-name-customer {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #909295;
+}
+
+.img-customer {
+    border-radius: 50%;
+    border: 1px solid #EE5425;
+    padding: 5px;
+    width: 60px;
+    height: 60px;
+}
+
+.name-customer {
+    text-align: left;
+}
+
+.name-customer h3 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #292929;
+}
+
+.name-customer span {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #A7A9AC;
+}
+
+.star-comment {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.detail-comment-dets {
+    min-width: 350px;
+    height: 100px;
+    text-align: left;
+}
+
+.introduction .wrap-video {
+    position: relative;
+    aspect-ratio: 1927/528;
+}
+
+.introduction .wrap-video .play-video {
+    position: absolute;
+    top: calc(50% - 53px);
+    left: calc(50% - 53px);
+    width: 106px;
+    height: 106px;
+}
+
+.introduction .wrap-video .video {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.title-partner-customer h3 {
+    color: #EE5425;
+    font-size: 35px;
+    line-height: 42px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.title-partner-customer h3 {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.title-partner-customer h3::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 106px;
+    border-bottom: 2px solid #272660;
+    /* Adjust thickness and color as needed */
+}
+
+.container-img-partner-cus {
+    width: 180px !important;
+    height: 180px;
+    border-radius: 50%;
+    box-shadow: 7px 3px 6px -3px rgba(0, 0, 0, 0.5)
+}
+
+.partner-customer .container {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #B9BBBD;
+}

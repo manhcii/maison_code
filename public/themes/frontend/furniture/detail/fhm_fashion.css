@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;1,100&display=swap");
+
+@font-face {
+  font-family: TuesdayNight;
+  src: url("./fonts/TuesdayNight-Regular/TuesdayNight-Regular.otf");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --pri-color: #f8f5f0;
+}
+#content,
+.sticky-header #header-wrap,
+.primary-menu:not(.on-click) .menu-item:hover > .sub-menu-container,
+.primary-menu:not(.on-click) .menu-item:hover > .mega-menu-content {
+  background-color: var(--pri-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+input,
+.input-group-text,
+.sub-menu-container .menu-link div,
+#logo a,
+.top-search-form input,
+.entry-link,
+.entry.entry-date-section span,
+.button.button-desc,
+.fbox-content h3,
+.tab-nav-lg li a,
+.counter,
+label,
+.widget-filter-links li a,
+.nav-tree li a,
+.wedding-head,
+.font-primary,
+.font-secondary,
+.button,
+.menu-link,
+.product-title h3 a,
+.single-product .product-title h2 a,
+.quantity .plus,
+.quantity .minus,
+.quantity .qty,
+.tab-content,
+.tab-nav li.ui-tabs-active a,
+.tab-nav li.ui-tabs-active span,
+.comment-content .comment-author {
+  font-family: "Lato", sans-serif !important;
+}
+
+p,
+li,
+.tab-nav li.ui-tabs-active span,
+.tab-nav li a,
+.tab-content {
+  font-weight: 300;
+}
+
+.comment-content .comment-author {
+  font-weight: 400;
+}
+
+.form-control,
+.input-group-text,
+.btn,
+.badge {
+  border-radius: 0px;
+}
+
+.btn:hover {
+  color: #fff;
+}
+
+.badge {
+  font-weight: 300 !important;
+}
+
+.button {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 300 !important;
+  letter-spacing: 3px !important;
+  font-size: 12px !important;
+}
+
+.menu-item:hover > .menu-link {
+  background-color: var(--pri-color);
+  transition: all ease 0.3s;
+}
+
+.sticky-header #header-wrap {
+  box-shadow: none;
+}
+
+/* START MENU */
+.top-cart-number::before {
+  background-color: rgb(158, 132, 83);
+}
+
+.top-cart-content {
+  border: none;
+  background-color: var(--pri-color) !important;
+}
+
+.top-cart-item-desc-title a,
+.top-cart-title h4 {
+  color: #000 !important;
+  font-weight: 400;
+}
+
+svg {
+  fill: var(--pri-color);
+}
+/* END MENU */
+
+/* START SUB TITLE */
+
+.titular-sub-title {
+  font-family: "Montserrat", sans-serif;
+  text-transform: unset;
+  color: #999999 !important;
+  font-weight: 900;
+  /* font-size: 42px; */
+  /* line-height: 27px !important; */
+}
+
+/* END SUBTITLE */
+
+/* START BESTSELLER */
+
+.portfolio-desc h3 a:hover {
+  color: unset !important;
+}
+
+/* END BESTSELLER */
+
+/* START TESTIMONIALS */
+
+.testimonial {
+  border: none;
+  box-shadow: none;
+  background: transparent;
+}
+/* END TESTIMONIALS */
+
+/* START ADVANTAGES */
+#advantage .fbox-content h3 {
+  font-family: "Montserrat", sans-serif !important;
+  color: #999999;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.fbox-icon i,
+.fbox-icon img {
+  background-color: transparent;
+  border-radius: 0px;
+}
+/* END ADVANCETAGES */
+
+/* START FINDOUT */
+
+.findout-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#findout .button:hover {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+/* END FINDOUT */
+
+/* START PRODUCTS */
+#product {
+  background-image: url("https://biagiotti.qodeinteractive.com/wp-content/uploads/2019/09/m-h-background-3.jpg?id=2652");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* END PRODUCTS */
+
+/* START FORM */
+/* 
+#form .row {
+  height: 300px;
+  background-color: #feebe7;
+}
+
+#form p {
+  font-family: TuesdayNight !important;
+  text-transform: unset;
+  color: #fff;
+  font-size: 218px;
+  line-height: 27px;
+  padding: 0 60px;
+  display: inline-block;
+} */
+/* END FORM */
+
+/* RESPONSIVE */
+
+@media (max-width: 1024px) {
+  #findout .heading-block h1 {
+    font-size: 27px;
+  }
+}

@@ -1,0 +1,101 @@
+.contact {
+  position: relative;
+  padding-top: 39px;
+  margin-bottom: 123px;
+  .contact-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    aspect-ratio: 1;
+    width: 30%;
+  }
+  .contact-form {
+    max-width: 580px;
+    .blog-heading {
+      h2 {
+        text-align: left;
+        margin-bottom: 3px;
+      }
+    }
+    .contact-form-heading {
+      margin-bottom: 25px;
+      p {
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: $font-light;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        span {
+          font-size: 12px;
+          font-weight: $font-light;
+          font-style: italic;
+        }
+      }
+    }
+    textarea {
+      margin-bottom: 50px;
+    }
+    .contact-submit {
+      width: 100%;
+      padding: 20px 0;
+      font-size: 20px;
+      font-family: $font-family-2;
+      font-weight: $font-semibold;
+    }
+  }
+  .contact-info {
+    padding-top: 75px;
+    .contact-info-item {
+      margin-bottom: 30px;
+      h5 {
+        font-size: 14px;
+        font-weight: $font-medium;
+        margin-bottom: 5px;
+      }
+      a {
+        text-decoration: underline;
+        color: black;
+      }
+      p,
+      a {
+        font-size: 16px;
+        font-weight: $font-light;
+      }
+    }
+  }
+}
+.map {
+  margin-bottom: 155px;
+  .map-main {
+    width: 100%;
+    aspect-ratio: 1160 / 500;
+    iframe {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .contact {
+    padding-top: 50px;
+    margin-bottom: 100px;
+    .contact-form {
+      max-width: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .contact {
+    margin-bottom: 50px;
+  }
+  .map {
+    margin-bottom: 50px;
+    .map {
+      aspect-ratio: 1;
+    }
+  }
+}

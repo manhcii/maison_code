@@ -1,0 +1,95 @@
+#fhm-project .banner {
+  color: #fff;
+  text-align: center;
+  padding: 250px 0 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../images/banner/banner-project.png');
+}
+#fhm-project .banner h2 {
+  color: #fff;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 75px;
+  margin-bottom: 20px;
+}
+#fhm-project .banner p {
+  font-size: 16px;
+  font-weight: 700;
+}
+#fhm-project .projects .container {
+  padding: 130px 0 66px;
+  border-bottom: 1px solid #B9BBBD;
+}
+#fhm-project .projects-row {
+  row-gap: 83px;
+}
+#fhm-project .row > .col-lg-4 {
+  padding: 0 14px;
+}
+#fhm-project .projects h3 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  margin-top: 50px;
+}
+#fhm-project .projects img {
+  aspect-ratio: 412/330;
+}
+#fhm-project .projects .pagination-list ul {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  column-gap: 5px;
+  margin-top: 96px;
+}
+#fhm-project .projects .pagination-list ul li {
+  text-align: center;
+  width: 22px;
+  height: 22px;
+  background-color: #B9BBBD;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 22px;
+}
+#fhm-project .projects .pagination-list ul .active {
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  font-size: 18px;
+  background-color: #EE5425;
+}
+#fhm-project .global .info-brand {
+  padding-top: 80px;
+}
+@media (max-width: 991px) {
+  #fhm-project .projects .container {
+    padding: 80px 0 40px;
+  }
+  #fhm-project .banner {
+    padding: 100px 0;
+  }
+  #fhm-project .projects .pagination-list ul {
+    margin-top: 40px;
+  }
+  #fhm-project .projects-row {
+    row-gap: 40px;
+  }
+  #fhm-project .global .info-brand {
+    padding-top: 40px;
+  }
+  .info-brand-left h3 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+}
+@media (max-width: 576px) {
+  #fhm-project .projects h3 {
+    margin-top: 16px;
+  }
+  #fhm-project .projects-row {
+    padding: 0 16px;
+  }
+}

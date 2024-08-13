@@ -1,0 +1,337 @@
+/**** COMMON ***/
+
+.read-more {
+    display: block;
+    padding: 10px 25px;
+    background-image: linear-gradient(to right, #EE5425, #F4911D);
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 400;
+    width: fit-content;
+    white-space: nowrap;
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+    margin-top: 43px;
+    border: 1px solid #EE5425;
+}
+
+.introduce .swiper-slide {
+    border-radius: 20px;
+    max-height: 550px;
+}
+
+
+/**** SLIDE ****/
+
+#fhm-about .slider-item-content h2 {
+    margin-bottom: 0;
+}
+
+#fhm-about .slider-item-content h2,
+#fhm-about .slider-item-content h3 {
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 75px;
+}
+
+#fhm-about .slider-item-content h3 {
+    margin-bottom: 42px;
+}
+
+#fhm-about .slider-item-content p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 75px;
+}
+
+
+/**** STORY ****/
+
+#fhm-about .story {
+    padding: 75px 0 72px;
+}
+
+#fhm-about .story .wrap-img {
+    width: 790px;
+    margin-left: -150px;
+}
+
+#fhm-about .story .text-des {
+    padding-top: 24px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: auto;
+    color: #EE5425;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+#fhm-about .story .text-des::after {
+    width: 60%;
+    content: '';
+    position: absolute;
+    left: 10px;
+    right: 0;
+    bottom: -15px;
+    height: 2px;
+    background-color: #D1D3D4;
+}
+
+#fhm-about .story .text-title {
+    max-width: 550px;
+    text-align: left;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #000073;
+}
+
+#fhm-about .story .text-content {
+    margin-top: 27px;
+    margin-bottom: 30px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #5B5B5B;
+}
+
+#fhm-about .story .story-side {
+    gap: 30px;
+}
+
+#fhm-about .story .story-side .experience {
+    display: flex;
+    gap: 12px;
+    padding: 12px 16px;
+    border-radius: 16px;
+    border: 0.5px solid #B9BBBD;
+}
+
+#fhm-about .story .story-side .experience .wrap-icon {
+    width: 36px;
+    min-width: 36px;
+}
+
+#fhm-about .story .story-side .experience h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #EE5425;
+    margin-bottom: 9px;
+}
+
+#fhm-about .story .story-side .experience p {
+    font-size: 11px;
+    font-weight: 600;
+    color: #1C1C1C;
+}
+
+
+/**** PROFILE ****/
+
+#fhm-about .profile {
+    padding: 102px 0 121px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../images/bg-about.png');
+}
+
+#fhm-about .profile .left-side {
+    padding-right: 67px;
+}
+
+#fhm-about .profile h3 {
+    color: #fff;
+    font-size: 35px;
+    line-height: 48px;
+    font-weight: bold;
+}
+
+#fhm-about .profile h2 {
+    color: #EE5425;
+    font-size: 35px;
+    line-height: 48px;
+    font-weight: bold;
+}
+
+#fhm-about .profile p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 66px 0;
+    line-height: 24px;
+}
+
+#fhm-about .profile .download {
+    display: block;
+    padding: 12px 25px;
+    background-image: linear-gradient(to right, #EE5425, #F4911D);
+    font-size: 16px;
+    font-weight: 400;
+    width: fit-content;
+    white-space: nowrap;
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+    border: 1px solid #EE5425;
+    border-right: none;
+}
+
+#fhm-about .profile .wrap-btn {
+    color: #fff;
+    width: 51px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+
+/**** CULTURE ****/
+
+#fhm-about .culture {
+    padding: 111px 0 118px;
+}
+
+#fhm-about .culture .right-side {
+    padding-left: 48px;
+}
+
+#fhm-about .culture h3 {
+    font-size: 35px;
+    font-weight: 800;
+    color: #000073;
+    margin-top: 192px;
+    line-height: 48px;
+}
+
+#fhm-about .culture h2 {
+    font-size: 35px;
+    font-weight: 800;
+    color: #EE5425;
+    line-height: 48px;
+    margin-bottom: 28px;
+}
+
+#fhm-about .culture p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #5B5B5B;
+    line-height: 22px;
+    margin-bottom: 66px;
+}
+
+
+/**** TEAM ****/
+
+#fhm-about .team {
+    padding: 56px 0;
+    text-align: center;
+    background-color: #F5F6F7;
+}
+
+#fhm-about .team h3 {
+    font-size: 35px;
+    font-weight: 800;
+    color: #000073;
+    line-height: 48px;
+}
+
+#fhm-about .team h2 {
+    font-size: 35px;
+    font-weight: 800;
+    color: #EE5425;
+    line-height: 48px;
+    margin-bottom: 28px;
+}
+
+#fhm-about .team p {
+    margin: 0 auto 54px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #5B5B5B;
+    line-height: 22px;
+    max-width: 849px;
+}
+
+#fhm-about .team .Swiperteam .swiper-slide {
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+@media only screen and (max-width: 1199px) {
+    #fhm-about .slider-item-content h2,
+    #fhm-about .slider-item-content h3 {
+        font-size: 40px;
+        line-height: 55px;
+    }
+    #fhm-about .slider-item-content h3 {
+        margin-bottom: 42px;
+    }
+    #fhm-about .slider-item-content p {
+        margin-bottom: 30px;
+    }
+    #fhm-about .story .wrap-img {
+        width: 100%;
+        margin-left: 0;
+    }
+    #fhm-about .culture h3 {
+        margin-top: 40px;
+    }
+    .global .info-brand-left {
+        margin-bottom: 30px;
+    }
+    .global .list-brand ul {
+        overflow-x: auto;
+    }
+}
+
+@media (max-width: 991px) {
+    .slider .slider-content .slider-item .slider-item-content {
+        max-width: 420px;
+    }
+    #fhm-about .slider-item-content h2,
+    #fhm-about .slider-item-content h3 {
+        font-size: 26px;
+        line-height: 40px;
+    }
+    #fhm-about .slider-item-content h3 {
+        margin-bottom: 20px;
+    }
+    #fhm-about .slider-item-content p {
+        font-size: 14px;
+        line-height: 19px;
+        margin-bottom: 30px;
+    }
+    #fhm-about .profile .wrap-img {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 767px) {}
+
+@media (max-width: 576px) {
+    #fhm-about .slider-item-content p {
+        display: none;
+    }
+    #fhm-about .team,
+    #fhm-about .culture,
+    #fhm-about .story,
+    #fhm-about .profile {
+        padding: 60px 16px;
+    }
+    #fhm-about .profile p {
+        margin: 30px 0;
+    }
+    #fhm-about .culture .right-side {
+        padding-left: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    #fhm-about .story .story-side .experience {
+        flex-direction: column;
+    }
+}

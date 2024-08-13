@@ -1,0 +1,191 @@
+.shopping-cart {
+  margin-bottom: 122px;
+  .shopping-cart-heading {
+    margin-top: 47px;
+    margin-bottom: 23px;
+    h1 {
+      font-size: 30px;
+      font-weight: $font-semibold;
+      line-height: 52px;
+      span {
+        font-size: 20px;
+        line-height: 16px;
+        font-weight: $font-regular;
+        color: $text-color-des;
+        margin-left: 7px;
+      }
+    }
+  }
+  .shopping-cart-table {
+    table {
+      border-top: 1px solid $border-color;
+      span {
+        font-size: 12px;
+        line-height: 16px;
+        color: $text-color-des;
+      }
+      tr {
+        td {
+          padding-top: 25px;
+          padding-bottom: 25px;
+          &:first-child,
+          &:last-child {
+            display: table-cell;
+            vertical-align: middle;
+          }
+          border-color: $border-color;
+        }
+      }
+    }
+  }
+  .shopping-cart-label {
+    padding-left: 37px;
+    overflow: hidden;
+  }
+  .order {
+    margin-bottom: 5px;
+    .order-bg {
+      width: 100%;
+      height: 25px;
+      background-image: url(../assets/images/bg-top-order.svg);
+      background-repeat: repeat;
+    }
+    .order-container {
+      background-color: $breadcrumb-bg-color;
+      padding: 25px 26px 39px 26px;
+      h5 {
+        font-size: 16px;
+        font-weight: $font-semibold;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 35px;
+      }
+      button {
+        width: 100%;
+        padding: 20px 45px;
+        font-size: 20px;
+        font-weight: $font-semibold;
+        font-family: $font-family-2;
+      }
+      .order-table {
+        margin-bottom: 38px;
+        tr,
+        th,
+        td {
+          border: none;
+          background-color: $breadcrumb-bg-color;
+          font-size: 14px;
+          line-height: 24px;
+        }
+        tbody {
+          tr {
+            th {
+              font-weight: $font-light;
+            }
+            td {
+              text-align: end;
+              font-weight: $font-semibold;
+              &.discount {
+                font-size: 12px;
+                font-weight: $font-regular;
+              }
+            }
+            &:last-child {
+              th,
+              td {
+                padding-bottom: 23px;
+              }
+            }
+          }
+        }
+        tfoot {
+          border-top: 1px solid $border-total;
+          tr {
+            th {
+              font-weight: $font-medium;
+              padding-top: 20px;
+              span {
+                font-size: 12px;
+                font-weight: $font-light;
+                margin-left: 4px;
+              }
+            }
+            td {
+              font-size: 20px;
+              font-weight: $font-semibold;
+              text-align: end;
+              padding-top: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .protection {
+    .protection-content {
+      background-color: $breadcrumb-bg-color;
+      padding: 29px 40px 13px 43px;
+      h6,
+      p {
+        font-size: 12px;
+        text-align: center;
+      }
+      h6 {
+        line-height: 22px;
+        font-weight: $font-semibold;
+        margin-bottom: 4px;
+        svg {
+          margin-right: 6px;
+        }
+      }
+      p {
+        line-height: 18px;
+      }
+    }
+    .protection-bg {
+      width: 100%;
+      height: 20px;
+      background-image: url(../assets/images/bg-bottom-order.svg);
+      background-repeat: repeat;
+    }
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .shopping-cart {
+    .order {
+      .order-container {
+        button {
+          padding: 7px 15px;
+        }
+      }
+    }
+    .shopping-cart-label {
+      padding-left: 10px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .shopping-cart {
+    .shopping-cart-table {
+      margin-bottom: 69px;
+      table {
+        margin-top: 90px;
+        tr {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: end;
+          align-items: center;
+          border-bottom: 1px solid $border-color;
+          padding-bottom: 20px;
+          td {
+            border: none;
+            padding-top: 10px;
+            padding-bottom: 5px;
+          }
+        }
+      }
+    }
+  }
+}

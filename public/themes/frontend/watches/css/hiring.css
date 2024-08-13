@@ -1,0 +1,55 @@
+#fhm-hiring .banner {
+    color: #fff;
+    padding: 350px 0 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/background_tuyendung.png);
+}
+
+#fhm-hiring .banner h2 {
+    color: #272660;
+    text-align: center;
+    font-size: 55px;
+    font-weight: bolder;
+}
+
+#fhm-hiring .banner p {
+    margin-top: 10px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.hiring-box {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hiring .container {
+    border-bottom: 1px solid #B9BBBD;
+}
+
+.hiring-container {
+    max-width: 481px;
+    height: 514px;
+}
+
+.submit-hiring {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit-hiring button {
+    padding: 14px 80px;
+    background-color: #606060;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
